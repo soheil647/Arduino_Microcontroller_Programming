@@ -1,0 +1,9 @@
+Wiznet W5100 web server example for CodeVisionAVR V2.60
+Based on code from: http://www.ermicro.com/blog/?p=1773
+
+Hardware: Arduino Uno ATmega328 board + Wiznet W5100 shield
+from www.dfrobot.com
+
+Connect a LED on PORTD bit 7 to +5V using a 1k resistor.
+A LM35DZ temperature sensor connected to analog input
+AD0 (PORTC bit 0) is used to measure ambient temperature.
